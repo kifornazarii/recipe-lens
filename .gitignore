@@ -1,0 +1,35 @@
+# .NET build output and local tooling
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local application settings and secrets
+**/appsettings*.json
+!**/appsettings.example.json
+**/secrets.json
+
+# Node.js, Vite, and frontend build output
+**/node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+*.tsbuildinfo
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
